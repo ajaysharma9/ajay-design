@@ -262,7 +262,9 @@ export function CallToAction() {
         >
           <div className="inline-flex items-center gap-3 bg-green-50 border border-green-200 text-green-800 px-6 py-3 rounded-full">
             <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-            <span className="text-sm font-medium">Available for new projects • Starting January 2025</span>
+            <span className="text-sm font-medium">Available for new projects
+              {/* • Starting January 2025 */}
+            </span>
           </div>
         </motion.div>
       </div>

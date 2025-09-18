@@ -266,7 +266,6 @@ export function ProcessOverview() {
                       </div>
                     </div>
 
-                    {/* Progress visualization */}
                     <div className="bg-background/70 p-6 rounded-xl border">
                       <h4 className="font-medium mb-4">Phase Progress</h4>
                       <div className="space-y-3">

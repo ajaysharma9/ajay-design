@@ -6,17 +6,17 @@ import { motion } from "motion/react";
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center pt-20 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden hero-section">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/10" />
+      {/* <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/10" /> */}
       
       {/* Animated background elements */}
-      <div className="absolute inset-0 overflow-hidden">
+      {/* <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-1/2 -right-1/2 w-full h-full bg-gradient-to-bl from-blue-500/5 to-transparent rounded-full"></div>
         <div className="absolute -bottom-1/2 -left-1/2 w-full h-full bg-gradient-to-tr from-purple-500/5 to-transparent rounded-full"></div>
-      </div>
+      </div> */}      
       
-      <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center relative z-10">
+      <div className="container mx-auto px-6 grid lg:grid-cols-1 gap-16 items-center relative z-10 text-center max-w-5xl mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -39,12 +39,14 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="text-5xl md:text-7xl leading-tight"
+              className="text-5xl md:text-6xl leading-tight font-bold"
             >
-              Crafting Digital
+              I’m Ajay Sharma, a seasoned
+              <br />
+              UI/UX Designer with
               <br />
               <span className="bg-gradient-to-r from-primary via-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Experiences
+               10+ years of experience  
               </span>
             </motion.h1>
             
@@ -52,11 +54,9 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              className="text-xl text-muted-foreground max-w-xl leading-relaxed"
+              className="text-xl text-muted-foreground max-w-xl mx-auto leading-relaxed"
             >
-              I'm Ajay Sharma, a passionate UI/UX Designer with 10+ years of experience creating 
-              user-centered digital solutions for fintech, healthcare, and enterprise clients. 
-              I transform complex problems into elegant, intuitive interfaces that drive results.
+           UI/UX Designer & Front-End Developer
             </motion.p>
           </div>
           
@@ -64,7 +64,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <Button size="lg" className="text-base px-8 py-6" asChild>
               <Link to="/portfolio">
@@ -79,7 +79,7 @@ export function Hero() {
             </Button>
           </motion.div>
           
-          <motion.div 
+          {/* <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
@@ -99,7 +99,6 @@ export function Hero() {
             </div>
           </motion.div>
           
-          {/* Social Links */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -118,17 +117,16 @@ export function Hero() {
                 </a>
               ))}
             </div>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
         
-        <motion.div 
+        {/* <motion.div 
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.4, duration: 1 }}
           className="relative"
         >
           <div className="relative">
-            {/* Main portfolio preview */}
             <div className="relative w-full h-[500px] bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl overflow-hidden border shadow-2xl">
               <ImageWithFallback
                 src="https://images.unsplash.com/photo-1555421689-491a97ff2040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMGRlc2lnbiUyMG1vY2t1cHxlbnwxfHx8fDE3NTc2Mjc4MzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
@@ -138,7 +136,6 @@ export function Hero() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
             </div>
             
-            {/* Floating cards */}
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
@@ -171,7 +168,7 @@ export function Hero() {
               <p className="text-xs text-muted-foreground">Average client satisfaction score</p>
             </motion.div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

@@ -57,10 +57,10 @@ export function FeaturedWork() {
           className="text-center mb-16"
         >
           <Badge variant="outline" className="mb-4">Featured Work</Badge>
-          <h2 className="text-4xl md:text-5xl mb-6">
+          <h2 className="text-4xl md:text-4xl font-medium mb-6">
             Recent Projects That
             <br />
-            <span className="bg-gradient-to-r from-primary via-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="text-muted-foreground">
               Made an Impact
             </span>
           </h2>
@@ -71,7 +71,7 @@ export function FeaturedWork() {
         </motion.div>
 
         {/* Featured Project */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -93,7 +93,6 @@ export function FeaturedWork() {
                 </p>
               </div>
 
-              {/* Tags */}
               <div className="flex flex-wrap gap-2">
                 {featuredProjects[0].tags.map((tag) => (
                   <Badge key={tag} variant="outline" className="text-sm">
@@ -102,7 +101,6 @@ export function FeaturedWork() {
                 ))}
               </div>
 
-              {/* Metrics */}
               <div className="grid grid-cols-3 gap-4">
                 {featuredProjects[0].metrics.map((metric, index) => (
                   <div key={index} className="text-center p-4 bg-muted/50 rounded-lg">
@@ -141,7 +139,6 @@ export function FeaturedWork() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent" />
                 
-                {/* Floating achievement card */}
                 <motion.div
                   animate={{ y: [0, -10, 0] }}
                   transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
@@ -160,9 +157,8 @@ export function FeaturedWork() {
               </div>
             </motion.div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
-        {/* Other Projects Grid */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

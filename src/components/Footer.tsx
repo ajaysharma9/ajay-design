@@ -81,9 +81,7 @@ export function Footer() {
             </div>
             
             <p className="text-muted-foreground max-w-md leading-relaxed">
-              A passionate UI/UX designer crafting digital experiences that make a difference. 
-              Based in San Francisco, working with clients worldwide to bring their visions to life 
-              through thoughtful and user-centered design.
+             A passionate UI/UX Designer crafting digital experiences that make an impact. Based in India, I work with clients worldwide to bring their visions to life through thoughtful, user-centered design.
             </p>
             
             <div className="space-y-4">
@@ -108,9 +106,9 @@ export function Footer() {
               </div>
               
               <div className="text-sm text-muted-foreground">
-                <p className="mb-1">📧 alex.chen@designstudio.com</p>
-                <p className="mb-1">📱 +1 (555) 123-4567</p>
-                <p>📍 San Francisco, CA • Open to remote work</p>
+                <a href="mail:to:ajayshrm406@gmail.com" className="mb-1">📧 ajayshrm406@gmail.com</a>
+                <p className="mb-1">📱 +91 7049767326</p>
+                <p>📍 Indore (M.P)</p>
               </div>
             </div>
           </div>
@@ -172,7 +170,7 @@ export function Footer() {
         </div>
         
         {/* Bottom Bar */}
-        <div className="mt-16 pt-8 border-t flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        {/* <div className="mt-16 pt-8 border-t flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-muted-foreground">
             © 2024 Alex Chen. All rights reserved. Crafted with ❤️ in San Francisco.
           </div>
@@ -183,7 +181,7 @@ export function Footer() {
             <span>•</span>
             <span>Available for freelance work</span>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

@@ -12,11 +12,11 @@ export function Header() {
   };
 
   const navItems = [
-    { path: "/", label: "Home" },
-    { path: "/about", label: "About" },
-    { path: "/portfolio", label: "Work" },
-    { path: "/skills", label: "Skills" },
-    { path: "/contact", label: "Contact" }
+    { path: "/", label: "HOME" },
+    { path: "/about", label: "ABOUT" },
+    { path: "/portfolio", label: "WORK" },
+    { path: "/skills", label: "SKILLS" },
+    { path: "/contact", label: "CONTACT" }
   ];
 
   return (
@@ -24,7 +24,7 @@ export function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border/50"
+      className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b- border-border/50"
     >
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
@@ -38,31 +38,33 @@ export function Header() {
         </Link>
         
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center space-x-1">
+        <div className="hidden md:flex items-center space-x-4">
           {navItems.map((item) => (
             <Link
               key={item.path}
               to={item.path}
-              className={`relative px-4 py-2 rounded-lg transition-all duration-200 ${
+              className={`relative px-4 py-2 rounded-lg transition-all duration-200 font-semibold uppercase text-sm md:text-base ${
                 isActive(item.path)
-                  ? 'text-primary bg-primary/10'
-                  : 'text-muted-foreground hover:text-foreground hover:bg-muted/50'
+                  ? "text-primary bg-gray-300 dark:bg-gray-700"
+                  : "hover:text-primary hover:bg-gray-200 dark:hover:bg-gray-800"
               }`}
             >
               {item.label}
+
               {isActive(item.path) && (
                 <motion.div
                   layoutId="activeTab"
-                  className="absolute inset-0 bg-primary/10 rounded-lg -z-10"
+                  className="absolute inset-0 rounded-lg border- border-gray-400 dark:border-gray-600 -z-10"
                   transition={{ type: "spring", duration: 0.6 }}
                 />
               )}
             </Link>
           ))}
         </div>
+
         
         {/* CTA Button */}
-        <div className="hidden md:flex items-center space-x-4">
+        {/* <div className="hidden md:flex items-center space-x-4">
          <Button variant="outline" size="sm" asChild>
           <a
             href="/resume.pdf"  
@@ -88,7 +90,7 @@ export function Header() {
           <Button size="sm" asChild>
             <Link to="/contact">Let's Talk</Link>
           </Button>
-        </div>
+        </div> */}
         
         {/* Mobile Menu Button */}
         <Button 

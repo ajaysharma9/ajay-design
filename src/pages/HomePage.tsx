@@ -12,9 +12,9 @@ export function HomePage() {
       <Hero />
       <FeaturedWork />
       <ServicesOverview />
-      <ProcessOverview />
+      {/* <ProcessOverview /> */}
       <ClientTestimonials />
-      <RecentInsights />
+      {/* <RecentInsights /> */}
       <CallToAction />
     </div>
   );

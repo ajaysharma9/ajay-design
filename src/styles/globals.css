@@ -187,3 +187,10 @@
 html {
   font-size: var(--font-size);
 }
+
+.hero-section{ 
+  /* background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1), transparent 70%), 
+  radial-gradient(circle at top left, rgba(128, 0, 128, 0.05), transparent 70%), 
+  radial-gradient(circle at bottom right, rgba(0, 128, 255, 0.05), transparent 70%); */
+  padding: 0px;
+}
