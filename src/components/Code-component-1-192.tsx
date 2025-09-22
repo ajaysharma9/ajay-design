@@ -56,8 +56,8 @@ export function FeaturedWork() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <Badge variant="outline" className="mb-4">Featured Work</Badge>
-          <h2 className="text-4xl md:text-5xl mb-6">
+         <Badge variant="outline" className="mb-4">Featured Work</Badge>
+         <h2 className="text-4xl md:text-4xl font-bold mb-6">
             Recent Projects That
             <br />
             <span className="bg-gradient-to-r from-primary via-blue-600 to-purple-600 bg-clip-text text-transparent">

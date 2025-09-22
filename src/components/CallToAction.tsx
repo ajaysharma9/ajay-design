@@ -57,7 +57,7 @@ export function CallToAction() {
           <Badge variant="outline" className="mb-4 bg-background/80 backdrop-blur-sm">
             Let's Work Together
           </Badge>
-          <h2 className="text-4xl md:text-6xl mb-6">
+          <h2 className="text-4xl md:text-4xl font-bold mb-6">
             Ready to Create
             <br />
             <span className="bg-gradient-to-r from-primary via-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -104,7 +104,7 @@ export function CallToAction() {
           className="mb-20"
         >
           <div className="text-center mb-12">
-            <h3 className="text-3xl mb-4">How We Can Work Together</h3>
+            <h2 className="text-4xl md:text-4xl font-bold mb-6">How We Can Work Together</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Flexible collaboration models designed to fit your project needs, timeline, and budget.
             </p>
@@ -148,11 +148,11 @@ export function CallToAction() {
           className="text-center bg-background/80 backdrop-blur-sm border rounded-3xl p-12 mb-16"
         >
           <div className="max-w-3xl mx-auto">
-            <h3 className="text-3xl md:text-4xl mb-6">
+            <h2 className="text-4xl md:text-4xl font-bold mb-6">
               Let's Turn Your Ideas Into
               <br />
               <span className="text-primary">Exceptional Experiences</span>
-            </h3>
+            </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               I'm currently accepting new projects starting in January 2025. 
               Whether you have a clear vision or just a spark of an idea, let's explore how 

@@ -48,6 +48,7 @@ const ball = {
   top: "50%",              // base position
   left: "50%",             // base position
   pointerEvents: "none",   // so it won’t block interactions
+  opecity: .3,
 }
 export default function App() {
    const ref = useRef<HTMLDivElement>(null)

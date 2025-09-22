@@ -52,7 +52,7 @@ export function FeaturedWork() {
           <Badge variant="outline" className="mb-4">
             Featured Work
           </Badge>
-          <h2 className="text-4xl md:text-4xl font-medium mb-6">
+          <h2 className="text-4xl md:text-4xl font-bold mb-6">
             Recent Projects That
             <br />
             <span className="text-muted-foreground">Made an Impact</span>

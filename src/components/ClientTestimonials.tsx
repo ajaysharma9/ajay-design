@@ -91,7 +91,7 @@ export function ClientTestimonials() {
           className="text-center mb-20"
         >
           <Badge variant="outline" className="mb-4">Client Testimonials</Badge>
-          <h2 className="text-4xl md:text-5xl mb-6">
+          <h2 className="text-4xl md:text-4xl font-bold mb-6">
             What Clients Say
             <br />
             <span className="text-muted-foreground">About Working With Me</span>
@@ -192,7 +192,7 @@ export function ClientTestimonials() {
           viewport={{ once: true }}
         >
           <div className="text-center mb-12">
-            <h3 className="text-xl mb-4">Trusted by Leading Companies</h3>
+            <h2 className="text-4xl md:text-4xl font-bold mb-6">Trusted by Leading Companies</h2>
             <p className="text-muted-foreground">
               From startups to enterprises, I've partnered with companies of all sizes.
             </p>
@@ -224,7 +224,7 @@ export function ClientTestimonials() {
           viewport={{ once: true }}
           className="text-center mt-20 py-16 bg-gradient-to-r from-primary/5 to-blue-500/5 rounded-3xl"
         >
-          <h3 className="text-2xl mb-4">Ready to Join These Success Stories?</h3>
+          <h2 className="text-4xl md:text-4xl font-bold mb-6">Ready to Join These Success Stories?</h2>
           <p className="text-muted-foreground mb-8 max-w-md mx-auto">
             Let's create something amazing together that your users will love and your business will benefit from.
           </p>

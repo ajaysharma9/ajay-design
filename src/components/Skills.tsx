@@ -113,7 +113,7 @@ export function Skills() {
           className="text-center mb-20"
         >
           <Badge variant="outline" className="mb-4">Skills & Expertise</Badge>
-          <h2 className="text-4xl md:text-5xl mb-6">
+          <h2 className="text-4xl md:text-4xl font-bold mb-6">
             Tools & Technologies
             <br />
             <span className="text-muted-foreground">I Work With</span>

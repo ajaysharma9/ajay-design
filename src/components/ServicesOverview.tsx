@@ -112,7 +112,7 @@ export function ServicesOverview() {
           className="text-center mb-20"
         >
           <Badge variant="outline" className="mb-4">Services</Badge>
-          <h2 className="text-4xl md:text-5xl mb-6">
+          <h2 className="text-4xl md:text-4xl font-bold mb-6">
             How I Can Help
             <br />
             <span className="text-muted-foreground">Your Business Grow</span>
@@ -190,7 +190,7 @@ export function ServicesOverview() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h3 className="text-3xl mb-4">My Design Process</h3>
+          <h2 className="text-4xl md:text-4xl font-bold mb-6">My Design Process</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             A proven methodology that ensures every project delivers maximum value and exceptional user experience.
           </p>
@@ -228,7 +228,7 @@ export function ServicesOverview() {
           viewport={{ once: true }}
           className="text-center py-16 bg-gradient-to-r from-primary/5 to-blue-500/5 rounded-3xl"
         >
-          <h3 className="text-2xl mb-4">Ready to Get Started?</h3>
+          <h2 className="text-4xl md:text-4xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-muted-foreground mb-8 max-w-md mx-auto">
             Let's discuss your project goals and how I can help you create something amazing.
           </p>
