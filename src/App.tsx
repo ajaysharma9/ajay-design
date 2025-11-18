@@ -69,7 +69,7 @@ export default function App() {
         </main>
         <Footer />
         {/* Floating ball follows pointer */}
-        <motion.div ref={ref} style={{ ...ball, x, y }} />
+        {/* <motion.div ref={ref} style={{ ...ball, x, y }} /> */}
       </div>
     </Router>
   );

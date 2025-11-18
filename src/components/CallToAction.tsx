@@ -47,7 +47,7 @@ export function CallToAction() {
     <section className="py-24 bg-gradient-to-br from-primary/5 via-blue-500/5 to-purple-500/5">
       <div className="container mx-auto px-6">
         {/* Header */}
-        <motion.div 
+        {/* <motion.div 
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -68,10 +68,10 @@ export function CallToAction() {
             Whether you're a startup looking to make your mark or an established company ready 
             to innovate, I'm here to help transform your vision into exceptional user experiences.
           </p>
-        </motion.div>
+        </motion.div> */}
 
         {/* Quick Stats */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -93,10 +93,10 @@ export function CallToAction() {
               <div className="text-sm text-muted-foreground">{stat.label}</div>
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
 
         {/* Collaboration Options */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -137,7 +137,7 @@ export function CallToAction() {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Main CTA */}
         <motion.div
@@ -217,7 +217,7 @@ export function CallToAction() {
               <div className="text-3xl mb-3">📧</div>
               <h4 className="font-medium mb-2">Email Me</h4>
               <p className="text-sm text-muted-foreground mb-3">
-                alex.chen@designstudio.com
+                ajayshrm406@gmail.com
               </p>
               <Button variant="outline" size="sm" className="w-full">
                 Send Email

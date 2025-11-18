@@ -12,11 +12,11 @@ export function Header() {
   };
 
   const navItems = [
-    { path: "/", label: "HOME" },
-    { path: "/about", label: "ABOUT" },
-    { path: "/portfolio", label: "WORK" },
-    { path: "/skills", label: "SKILLS" },
-    { path: "/contact", label: "CONTACT" }
+    { path: "/", label: "Home" },
+    { path: "/about", label: "About" },
+    { path: "/portfolio", label: "Work" },
+    { path: "/skills", label: "Skills" },
+    { path: "/contact", label: "Contact" }
   ];
 
   return (
@@ -24,7 +24,7 @@ export function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b- border-border/50"
+      className="fixed top-0 left-0 right-0 z-50 bg-background/95- backdrop-blur-md border-b- border-border/50"
     >
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}

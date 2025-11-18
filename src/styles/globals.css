@@ -189,8 +189,11 @@ html {
 }
 
 .hero-section{ 
-  /* background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1), transparent 70%), 
-  radial-gradient(circle at top left, rgba(128, 0, 128, 0.05), transparent 70%), 
-  radial-gradient(circle at bottom right, rgba(0, 128, 255, 0.05), transparent 70%); */
+  /* background-image: url('../assets/hero-bg-2.png'); */
+  background-color: #d1def8;
   padding: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
 }

@@ -41,12 +41,11 @@ export function Hero() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-5xl md:text-6xl leading-tight font-bold"
             >
-              I’m Ajay Sharma, a seasoned
-              <br />
+              I’m Alex, a seasoned 
               UI/UX Designer with
               <br />
               <span className="bg-gradient-to-r from-primary via-blue-600 to-purple-600 bg-clip-text text-transparent">
-               10+ years of experience  
+               7+ years of experience  
               </span>
             </motion.h1>
             

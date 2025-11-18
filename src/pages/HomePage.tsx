@@ -13,9 +13,9 @@ export function HomePage() {
     <div>
       <Hero />
       <FeaturedWork />
-      <ServicesOverview />
+      {/* <ServicesOverview /> */}
       {/* <ProcessOverview /> */}
-      <ClientTestimonials />
+      {/* <ClientTestimonials /> */}
       {/* <RecentInsights /> */}
       <CallToAction /> 
     </div>

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 import { motion } from "motion/react"
 import ringC from "../assets/ring-c.png"
 import Anya from "../assets/anya.png"
+import SubTitleIcon from "../assets/sub-title-icon.svg"
 
 const featuredProjects = [
   
@@ -50,7 +51,7 @@ export function FeaturedWork() {
           className="text-center mb-16"
         >
           <Badge variant="outline" className="mb-4">
-            Featured Work
+            <img src={SubTitleIcon} alt=""/>Featured Work
           </Badge>
           <h2 className="text-4xl md:text-4xl font-bold mb-6">
             Recent Projects That
