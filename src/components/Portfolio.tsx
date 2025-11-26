@@ -18,12 +18,12 @@ import {
 const projects = [
   {
     id: 1,
-    slug: "trading-dashboard",
-    title: "Trading Dashboard",
-    category: "Web Application",
-    description: "A comprehensive trading platform interface with real-time data visualization, advanced charting tools, and intuitive portfolio management for professional traders.",
+    slug: "https://ringconcierge.com/",
+    title: "Ring Concierge",
+    category: "E-Commerce",
+    description: "Custom engagement rings and fine jewelry handcrafted by women, for women.",        
     image: "https://images.unsplash.com/photo-1583932692875-a42450d50acf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBkYXNoYm9hcmR8ZW58MXx8fHwxNzU3NTQxODU5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["Web Design", "Dashboard", "Fintech", "Data Visualization"],
+    tags: ["Mobile App", "Web App"],
     year: "2024",
     duration: "3 months",
     featured: true,
@@ -150,7 +150,7 @@ export function Portfolio() {
           className="mb-16"
         >
           <Tabs value={selectedCategory} onValueChange={setSelectedCategory} className="w-full">
-            <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-4 h-auto p-2 bg-muted/30">
+            {/* <TabsList className="grid w-full max-w-2xl mx-auto grid-cols-4 h-auto p-2 bg-muted/30">
               {categories.map((category) => {
                 const IconComponent = category.icon;
                 return (
@@ -164,13 +164,13 @@ export function Portfolio() {
                   </TabsTrigger>
                 );
               })}
-            </TabsList>
+            </TabsList> */}
 
             {/* Tab Content */}
             {categories.map((category) => (
               <TabsContent key={category.id} value={category.id} className="mt-12">
                 {/* Stats */}
-                <motion.div
+                {/* <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.4 }}
@@ -186,7 +186,7 @@ export function Portfolio() {
                       <span>2022-2024</span>
                     </div>
                   </div>
-                </motion.div>
+                </motion.div> */}
 
                 {/* Featured Projects */}
                 {featuredProjects.length > 0 && (

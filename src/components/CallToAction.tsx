@@ -219,9 +219,11 @@ export function CallToAction() {
               <p className="text-sm text-muted-foreground mb-3">
                 ajayshrm406@gmail.com
               </p>
-              <Button variant="outline" size="sm" className="w-full">
-                Send Email
-              </Button>
+              <Link to="mailto:ajayshrm406@gmail.com.com">
+                <Button variant="outline" size="sm" className="w-full">
+                  Send Email
+                </Button>
+              </Link>
             </CardContent>
           </Card>
 

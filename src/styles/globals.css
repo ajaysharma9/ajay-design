@@ -189,8 +189,8 @@ html {
 }
 
 .hero-section{ 
-  /* background-image: url('../assets/hero-bg-2.png'); */
-  background-color: #d1def8;
+  background-image: url('../assets/hero-bg-2.png');
+  /* background-color: #d1def8; */
   padding: 0px;
   background-repeat: no-repeat;
   background-position: center;

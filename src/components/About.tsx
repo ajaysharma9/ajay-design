@@ -5,26 +5,19 @@ import { motion } from "motion/react";
 
 const timeline = [
   {
-    year: "2024",
-    title: "Senior UI/UX Designer",
-    company: "TechFlow Inc.",
+    year: "2015",
+    title: "UI/UX Designer",
+    company: "Linkites.",
     description: "Leading design for enterprise SaaS products, managing a team of 3 designers, and establishing design systems across multiple product lines.",
     achievements: ["Increased user engagement by 45%", "Reduced support tickets by 30%", "Led design system adoption across 5 products"]
   },
   {
-    year: "2022",
-    title: "UI/UX Designer",
-    company: "DigitalCraft Studio",
+    year: "2024",
+    title: "Senior UI/UX Designer",
+    company: "Smooth Tag Technologies Pvt. Ltd",
     description: "Designed mobile and web applications for fintech and healthcare clients, focusing on accessibility and user research.",
     achievements: ["Delivered 25+ projects", "Improved conversion rates by 35%", "Implemented accessibility standards"]
-  },
-  {
-    year: "2021",
-    title: "Junior Designer",
-    company: "StartupHub",
-    description: "Started my journey in UX design, working on various startup projects and learning the fundamentals of user-centered design.",
-    achievements: ["Completed 15+ projects", "Earned UX certification", "Built first design system"]
-  }
+  }, 
 ];
 
 const values = [
@@ -93,7 +86,7 @@ export function About() {
               </div>
               <div className="absolute -bottom-6 -right-6 bg-background border shadow-lg rounded-2xl p-6 w-64">
                 <div className="text-sm text-muted-foreground mb-1">Currently based in</div>
-                <div className="font-medium">San Francisco, CA</div>
+                <div className="font-medium">India, Indore madhya pradesh</div>
                 <div className="text-sm text-muted-foreground mt-2">Open to remote work</div>
               </div>
             </div>

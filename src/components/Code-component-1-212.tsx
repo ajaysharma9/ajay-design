@@ -1,8 +1,9 @@
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { Card, CardContent } from "./ui/card";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { motion } from "motion/react";
+import { Link } from "react-router";
 
 const quickStats = [
   { number: "40+", label: "Happy Clients" },
@@ -217,11 +218,11 @@ export function CallToAction() {
               <div className="text-3xl mb-3">📧</div>
               <h4 className="font-medium mb-2">Email Me</h4>
               <p className="text-sm text-muted-foreground mb-3">
-                alex.chen@designstudio.com
+                ajayshrm406@gmail.com.com
               </p>
-              <Button variant="outline" size="sm" className="w-full">
+              <Link className="w-full" to="mailto:ajayshrm406@gmail.com.com">
                 Send Email
-              </Button>
+              </Link>
             </CardContent>
           </Card>
 

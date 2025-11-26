@@ -6,13 +6,16 @@ import { Link } from "react-router-dom"
 import { motion } from "motion/react"
 import ringC from "../assets/ring-c.png"
 import Anya from "../assets/anya.png"
+import YardPost from "../assets/yard-post.png"
+import FirneoImg from "../assets/firneo.png"
+import OnetabImg from "../assets/onetab.png"
+import Onnbike from "../assets/onnbike.png"
 import SubTitleIcon from "../assets/sub-title-icon.svg"
 
 const featuredProjects = [
-  
   {
     id: 1,
-    slug: "https://ringconcierge.com/", // ✅ external URL
+    slug: "https://ringconcierge.com/",
     title: "Ring Concierge",
     category: "E-Commerce",
     description:
@@ -36,7 +39,60 @@ const featuredProjects = [
     year: 2024,
     featured: true,
   },
+  {
+    id: 3,
+    slug: "https://yardpost.com/",
+    title: "YardPost",
+    category: "Real Estate / Marketplace",
+    description:
+      "A streamlined landing-page & website builder platform tailored for real estate professionals — CRM, listings and IDX-ready templates included. ",  
+    image: YardPost,
+    tags: ["Web App"],
+    metrics: ["—"],  // You may update with actual impact metrics if available
+    year: 2024,
+    featured: true,
+  },
+  {
+    id: 4,
+    slug: "https://www.firneo.com/",
+    title: "Firneo",
+    category: "Professional Development / SaaS",
+    description:
+      "A community & training platform that helps BD & partnerships professionals upskill with courses, templates and mentoring.",  
+    image: FirneoImg,
+    tags: ["Web App"],
+    metrics: ["—"],
+    year: 2024,
+    featured: true,
+  },
+  {
+    id: 5,
+    slug: "https://www.onetab.ai/",
+    title: "onetab.ai",
+    category: "IT Services / SaaS / Productivity",
+    description:
+      "AI-powered enterprise platform combining project management, knowledge graph, CI/CD workflows, analytics — all tools in one place.",  
+    image: OnetabImg,
+    tags: ["Web App", "AI-SaaS"],
+    metrics: ["—"],
+    year: 2024,
+    featured: true,
+  },
+  {
+    id: 6,
+    slug: "https://www.onnbikes.com/",
+    title: "ONN Bikes",
+    category: "Mobility / E-commerce",
+    description:
+      "A modern mobility-as-a-service (MaaS) platform offering bike & electric-bike rentals (hourly/flexible) — solves urban commute and reduces ownership overhead.",  
+    image: Onnbike,
+    tags: ["Web App"],
+    metrics: ["—"],
+    year: 2024,
+    featured: true,
+  },
 ]
+
 
 export function FeaturedWork() {
   return (

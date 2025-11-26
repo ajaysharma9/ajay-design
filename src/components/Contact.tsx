@@ -12,14 +12,14 @@ const contactMethods = [
   {
     icon: "📧",
     title: "Email",
-    value: "alex.chen@designstudio.com",
+    value: "ajayshrm406@gmail.com",
     description: "Best for detailed project discussions",
     action: "Send Email"
   },
   {
     icon: "📱",
     title: "Phone",
-    value: "+1 (555) 123-4567",
+    value: "+91 709-496-7329",
     description: "Available Mon-Fri, 9AM-6PM PST",
     action: "Call Now"
   },
@@ -30,13 +30,13 @@ const contactMethods = [
     description: "Professional network and updates",
     action: "Connect"
   },
-  {
-    icon: "🎨",
-    title: "Dribbble",
-    value: "dribbble.com/alexchen",
-    description: "Latest design work and inspiration",
-    action: "Follow"
-  }
+  // {
+  //   icon: "🎨",
+  //   title: "Dribbble",
+  //   value: "dribbble.com/alexchen",
+  //   description: "Latest design work and inspiration",
+  //   action: "Follow"
+  // }
 ];
 
 const faqs = [
@@ -153,7 +153,7 @@ export function Contact() {
                         type="email"
                         value={formData.email}
                         onChange={handleInputChange}
-                        placeholder="your.email@company.com"
+                        placeholder="Enter your email"
                         required
                       />
                     </div>
@@ -291,7 +291,7 @@ export function Contact() {
             </Card>
 
             {/* FAQ */}
-            <Card>
+            {/* <Card>
               <CardContent className="p-6">
                 <h3 className="text-lg font-medium mb-6">Frequently Asked</h3>
                 <div className="space-y-4">
@@ -310,7 +310,7 @@ export function Contact() {
                   ))}
                 </div>
               </CardContent>
-            </Card>
+            </Card> */}
           </motion.div>
         </div>
 

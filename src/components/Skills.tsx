@@ -8,11 +8,11 @@ const skillCategories = [
     title: "Design Tools",
     description: "Professional design software and prototyping tools",
     skills: [
-      { name: "Figma", level: 95, years: "5 years", icon: "🎨" },
-      { name: "Adobe Creative Suite", level: 90, years: "6 years", icon: "🎭" },
-      { name: "Sketch", level: 85, years: "4 years", icon: "✏️" },
-      { name: "Principle", level: 88, years: "3 years", icon: "🎬" },
-      { name: "Framer", level: 82, years: "2 years", icon: "⚡" }
+      { name: "Figma", level: 85, years: "8 years", icon: "🎨" },
+      // { name: "Adobe Creative Suite", level: 90, years: "6 years", icon: "🎭" },
+      { name: "Sketch", level: 75, years: "8 years", icon: "✏️" },
+      // { name: "Principle", level: 88, years: "3 years", icon: "🎬" },
+      // { name: "Framer", level: 82, years: "2 years", icon: "⚡" }
     ]
   },
   {
