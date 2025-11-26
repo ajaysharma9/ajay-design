@@ -5,6 +5,12 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import { useState } from "react";
+import ringC from "../assets/ring-c.png"
+import Anya from "../assets/anya.png" 
+import Volkno from "../assets/volkno.png" 
+import Convlyze from "../assets/convlyze.png" 
+import Kikoshop from "../assets/kikoshop.png" 
+import Reliablebits from "../assets/reliablebits.png" 
 import { 
   Monitor, 
   Smartphone, 
@@ -21,78 +27,113 @@ const projects = [
     slug: "https://ringconcierge.com/",
     title: "Ring Concierge",
     category: "E-Commerce",
-    description: "Custom engagement rings and fine jewelry handcrafted by women, for women.",        
-    image: "https://images.unsplash.com/photo-1583932692875-a42450d50acf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXNpZ24lMjBkYXNoYm9hcmR8ZW58MXx8fHwxNzU3NTQxODU5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["Mobile App", "Web App"],
+    description:
+      "Luxury fine-jewelry shopping experience designed for modern consumers, focusing on customization, product discovery, and high-end visual storytelling.",
+    image: ringC,
+    tags: ["E-Commerce", "UI/UX", "Mobile Web", "Responsive Design"],
     year: "2024",
     duration: "3 months",
     featured: true,
-    results: ["45% increase in user engagement", "30% faster trade execution", "25% reduction in user errors"]
+    results: [
+      "Improved product discovery flow",
+      "Enhanced mobile shopping experience",
+      "Optimized conversion-focused layouts"
+    ]
   },
+
   {
     id: 2,
-    slug: "mobile-banking",
-    title: "Mobile Banking App",
-    category: "Mobile Application",
-    description: "User-friendly mobile banking application focused on accessibility, security, and seamless financial management for everyday banking needs.",
-    image: "https://images.unsplash.com/photo-1597740985671-2a8a3b80502e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzU3NjI3ODM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["Mobile", "Banking", "iOS", "Android", "Accessibility"],
+    slug: "https://thisisanya.com/",
+    title: "Anya",
+    category: "Healthcare / Wellness",
+    description:
+      "A postpartum care platform offering guided recovery programs, expert-backed tools, and personalized support for new mothers.",
+    image: Anya,
+    tags: ["HealthTech", "Mobile", "Wellness", "Accessibility"],
     year: "2024",
     duration: "4 months",
     featured: true,
-    results: ["40% increase in user satisfaction", "60% faster onboarding", "50% more feature adoption"]
+    results: [
+      "Streamlined onboarding experience",
+      "Improved content accessibility",
+      "Strengthened user retention workflows"
+    ]
   },
+
   {
     id: 3,
-    slug: "design-system",
-    title: "Enterprise Design System",
-    category: "Design System",
-    description: "Comprehensive design system with component libraries, design tokens, and guidelines that scales across multiple products and platforms.",
-    image: "https://images.unsplash.com/photo-1629494893504-d41e26a02631?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1aSUyMHV4JTIwZGVzaWduJTIwbW9ja3VwfGVufDF8fHx8MTc1NzYwMzczOXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["Design System", "Components", "Documentation", "Scalability"],
+    slug: "https://volkno.ai/",
+    title: "Volkno AI",
+    category: "AI-Powered SaaS",
+    description:
+      "AI-driven content automation platform helping businesses create, analyze, and scale their marketing content efficiently.",
+    image: Volkno,
+    tags: ["AI", "SaaS", "Content Automation", "Dashboard UX"],
     year: "2023",
     duration: "6 months",
     featured: false,
-    results: ["60% faster design-to-dev", "100% component reusability", "5 products unified"]
+    results: [
+      "Designed scalable component architecture",
+      "Improved workflow clarity across AI tools",
+      "Simplified dashboard and analytics views"
+    ]
   },
+
   {
     id: 4,
-    slug: "healthcare-platform",
-    title: "Healthcare Platform",
-    category: "Web Application",
-    description: "Patient management platform for healthcare providers with appointment scheduling, medical records, and telemedicine capabilities.",
-    image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwYXBwfGVufDF8fHx8MTc1NzYyNzgzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["Healthcare", "Web App", "Accessibility", "HIPAA"],
+    slug: "https://convlyze.com/",
+    title: "Convlyze",
+    category: "SaaS / AI Insights",
+    description:
+      "Conversation analytics platform that transforms sales and support calls into actionable insights using AI-powered speech intelligence.",
+    image: Convlyze,
+    tags: ["AI", "Analytics", "SaaS", "Voice Intelligence"],
     year: "2023",
     duration: "5 months",
     featured: false,
-    results: ["35% reduction in appointment no-shows", "50% improved patient satisfaction", "90% provider adoption"]
+    results: [
+      "Redesigned insights layout for clarity",
+      "Improved call-analysis user flow",
+      "Enhanced usability for large datasets"
+    ]
   },
+
   {
     id: 5,
-    slug: "ecommerce-redesign",
-    title: "E-commerce Redesign",
-    category: "Web Application",
-    description: "Complete redesign of an e-commerce platform focusing on conversion optimization, mobile experience, and streamlined checkout process.",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBkZXNpZ258ZW58MXx8fHwxNzU3NjI3ODM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["E-commerce", "Conversion", "Mobile-First", "UX Research"],
+    slug: "https://kikoshop.in/",
+    title: "Kikoshop",
+    category: "E-Commerce",
+    description:
+      "A full-stack online fashion and accessories store built for smooth browsing, fast checkout, and mobile-first retail experience.",
+    image: Kikoshop,
+    tags: ["E-Commerce", "Retail", "UI/UX", "Mobile-First"],
     year: "2023",
     duration: "4 months",
     featured: false,
-    results: ["25% increase in conversion rate", "40% reduction in cart abandonment", "65% mobile traffic growth"]
+    results: [
+      "Improved category navigation",
+      "Enhanced product card layout",
+      "Optimized mobile checkout experience"
+    ]
   },
+
   {
     id: 6,
-    slug: "saas-dashboard",
-    title: "SaaS Analytics Dashboard",
-    category: "Web Application", 
-    description: "Analytics dashboard for SaaS companies to track user metrics, revenue insights, and product performance with customizable reporting features.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXNoYm9hcmQlMjBhbmFseXRpY3N8ZW58MXx8fHwxNzU3NjI3ODM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    tags: ["SaaS", "Analytics", "Data Viz", "Business Intelligence"],
+    slug: "https://reliablebits.io/",
+    title: "reliablebits",
+    category: "Web Application",
+    description:
+      "A modular analytics dashboard for SaaS companies to track engagement, revenue, cohorts, and product performance.",
+    image:Reliablebits,
+    tags: ["SaaS", "Analytics", "Data Visualization", "BI Dashboards"],
     year: "2022",
     duration: "3 months",
     featured: false,
-    results: ["50% faster data insights", "30% increase in user retention", "80% of users create custom reports"]
+    results: [
+      "Created scalable data-viz components",
+      "Improved reporting UX",
+      "Designed customizable widget system"
+    ]
   }
 ];
 
