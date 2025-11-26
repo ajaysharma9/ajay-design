@@ -250,7 +250,11 @@ export function Portfolio() {
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.8, delay: index * 0.2 }}
                         >
-                          <Link to={`/project/${project.slug}`} target="_blank">
+                          <a
+                            href={project.slug}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
                             <Card className="group cursor-pointer hover:shadow-2xl transition-all duration-500 overflow-hidden">
                               <CardContent className="p-0">
                                 <div className="relative overflow-hidden">
@@ -307,7 +311,7 @@ export function Portfolio() {
                                 </div>
                               </CardContent>
                             </Card>
-                          </Link>
+                          </a>
                         </motion.div>
                       ))}
                     </div>
@@ -335,7 +339,11 @@ export function Portfolio() {
                           animate={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.6, delay: index * 0.1 }}
                         >
-                          <Link to={`/project/${project.slug}`} target="_blank">
+                          <a
+    href={project.slug}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
                             <Card className="group cursor-pointer hover:shadow-lg transition-all duration-300 h-full">
                               <CardContent className="p-0">
                                 <div className="relative overflow-hidden rounded-t-lg">
@@ -388,7 +396,7 @@ export function Portfolio() {
                                 </div>
                               </CardContent>
                             </Card>
-                          </Link>
+                          </a>
                         </motion.div>
                       ))}
                     </div>
