@@ -189,13 +189,14 @@ html {
 }
 
 .hero-section{ 
-  background-image: url('../assets/hero-bg-2.png');
-  /* background-color: #d1def8; */
+  background-image: url('https://cdn.prod.website-files.com/68cdd21594f7e7d333ffddb4/68ce6fba47a4c69132938532_Home%20(1).webp');
+  /* background-image: url('../assets/hero-bg-2.png'); */
+  background-color: #ffffff;
   padding: 0px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
+  background-size: cover;
+  /* background-attachment: fixed; */
   /* z-index: 15;
   grid-column-gap: 0px;
   grid-row-gap: 0px;

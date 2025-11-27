@@ -10,31 +10,36 @@ const skillCategories = [
     skills: [
       { name: "Figma", level: 85, years: "8 years", icon: "🎨" },
       // { name: "Adobe Creative Suite", level: 90, years: "6 years", icon: "🎭" },
-      { name: "Sketch", level: 75, years: "8 years", icon: "✏️" },
-      // { name: "Principle", level: 88, years: "3 years", icon: "🎬" },
-      // { name: "Framer", level: 82, years: "2 years", icon: "⚡" }
+      { name: "Sketch", level: 75, years: "10 years", icon: "✏️" },
+      { name: "Photoshop", level: 75, years: "10 years", icon: "🎬" },
+      { name: "CorelDraw", level: 60, years: "10 years", icon: "⚡" },
+      { name: "Adobe XD", level: 75, years: "9 years", icon: "🖌️" },
+      { name: "Framer", level: 75, years: "8 years", icon: "🖌 " }
     ]
   },
   {
     title: "Research & Strategy",
     description: "User research methodologies and strategic thinking",
     skills: [
-      { name: "User Research", level: 92, years: "5 years", icon: "🔍" },
-      { name: "Usability Testing", level: 90, years: "4 years", icon: "🧪" },
-      { name: "Information Architecture", level: 88, years: "4 years", icon: "🏗️" },
-      { name: "Journey Mapping", level: 85, years: "3 years", icon: "🗺️" },
-      { name: "Design Strategy", level: 87, years: "3 years", icon: "🎯" }
+      { name: "User Research", level: 92, years: "8 years", icon: "🔍" },
+      { name: "Usability Testing", level: 90, years: "8 years", icon: "🧪" },
+      { name: "Information Architecture", level: 88, years: "8 years", icon: "🏗️" },
+      // { name: "Journey Mapping", level: 85, years: "3 years", icon: "🗺️" },
+      { name: "Design Strategy", level: 87, years: "8 years", icon: "🎯" }
     ]
   },
   {
     title: "Development",
     description: "Frontend technologies for better design-dev collaboration",
     skills: [
-      { name: "HTML/CSS", level: 85, years: "6 years", icon: "💻" },
-      { name: "JavaScript", level: 78, years: "4 years", icon: "⚙️" },
-      { name: "React", level: 75, years: "3 years", icon: "⚛️" },
-      { name: "Tailwind CSS", level: 88, years: "2 years", icon: "🎨" },
-      { name: "Design Systems", level: 92, years: "4 years", icon: "🧩" }
+      { name: "HTML/CSS", level: 95, years: "10 years", icon: "💻" },
+      { name: "Bootstrap", level: 95, years: "10 years", icon: "💻" },
+      { name: "Chakra UI", level: 90, years: "5 years", icon: "💻" },
+      { name: "Tailwind CSS", level: 80, years: "3 years", icon: "🎨" },
+      { name: "Material UI", level: 80, years: "3 years", icon: "🎨" },
+      { name: "JavaScript", level: 70, years: "10 years", icon: "⚙️" },
+      { name: "React", level: 40, years: "8 years", icon: "⚛️" },
+      { name: "Design Systems", level: 92, years: "8 years", icon: "🧩" }
     ]
   },
   {
@@ -43,9 +48,9 @@ const skillCategories = [
     skills: [
       { name: "Cross-functional Leadership", level: 90, years: "4 years", icon: "👥" },
       { name: "Agile/Scrum", level: 85, years: "5 years", icon: "🔄" },
-      { name: "Design Systems", level: 93, years: "4 years", icon: "📐" },
-      { name: "Stakeholder Management", level: 88, years: "3 years", icon: "🤝" },
-      { name: "Mentoring", level: 85, years: "2 years", icon: "🌟" }
+      { name: "Design Systems", level: 92, years: "8 years", icon: "📐" },
+      // { name: "Stakeholder Management", level: 88, years: "3 years", icon: "🤝" },
+      // { name: "Mentoring", level: 85, years: "2 years", icon: "🌟" }
     ]
   }
 ];
@@ -208,7 +213,7 @@ export function Skills() {
         </motion.div>
 
         {/* Certifications */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -241,7 +246,7 @@ export function Skills() {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Download Resume CTA */}
         <motion.div

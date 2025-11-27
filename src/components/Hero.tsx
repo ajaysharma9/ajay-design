@@ -39,7 +39,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
-              className="text-5xl md:text-6xl leading-tight font-bold"
+              className="text-5xl md:text-6xl leading-tight font-bold text-[#1e213a]"
             >
               Ajay Sharma, a seasoned 
               UI/UX Designer with

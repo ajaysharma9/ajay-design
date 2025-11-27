@@ -2,6 +2,7 @@ import { Card, CardContent } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { motion } from "motion/react";
+import AjProfile from "../assets/aj-profile.png";
 
 const timeline = [
   {
@@ -78,8 +79,8 @@ export function About() {
           >
             <div className="relative">
               <div className="w-full h-80 rounded-3xl overflow-hidden">
-                <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwxfHx8fDE3NTc2Mjc4MzV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                <img
+                  src={AjProfile}
                   alt="Alex Chen - UI/UX Designer"
                   className="w-full h-full object-cover"
                 />

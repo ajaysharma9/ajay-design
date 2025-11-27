@@ -16,7 +16,7 @@ export function Header() {
     { path: "/about", label: "About" },
     { path: "/portfolio", label: "Work" },
     { path: "/skills", label: "Skills" },
-    { path: "/contact", label: "Contact" }
+    // { path: "/contact", label: "Contact" }
   ];
 
   return (
@@ -24,7 +24,7 @@ export function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="fixed top-0 left-0 right-0 z-50 bg-background/95- backdrop-blur-md border-b- border-border/50"
+      className="fixed top-0 left-0 right-0 z-50 bg-background/95- backdrop-blur-md- border-b- border-border/50"
     >
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
@@ -60,6 +60,14 @@ export function Header() {
               )}
             </Link>
           ))}
+         <a href="/resume.docx" download="resume.docx">
+          <button className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-2 py-2 rounded-lg hover:bg-primary/90 transition-colors cursor-pointer">
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            Download Resume
+          </button>
+        </a>
         </div>
 
         

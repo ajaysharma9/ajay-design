@@ -65,32 +65,32 @@ const featuredProjects = [
     year: 2024,
     featured: true,
   },
-  {
-    id: 5,
-    slug: "https://www.onetab.ai/",
-    title: "onetab.ai",
-    category: "IT Services / SaaS / Productivity",
-    description:
-      "AI-powered enterprise platform combining project management, knowledge graph, CI/CD workflows, analytics — all tools in one place.",  
-    image: OnetabImg,
-    tags: ["Web App", "AI-SaaS"],
-    metrics: ["—"],
-    year: 2024,
-    featured: true,
-  },
-  {
-    id: 6,
-    slug: "https://www.onnbikes.com/",
-    title: "ONN Bikes",
-    category: "Mobility / E-commerce",
-    description:
-      "A modern mobility-as-a-service (MaaS) platform offering bike & electric-bike rentals (hourly/flexible) — solves urban commute and reduces ownership overhead.",  
-    image: Onnbike,
-    tags: ["Web App"],
-    metrics: ["—"],
-    year: 2024,
-    featured: true,
-  },
+  // {
+  //   id: 5,
+  //   slug: "https://www.onetab.ai/",
+  //   title: "onetab.ai",
+  //   category: "IT Services / SaaS / Productivity",
+  //   description:
+  //     "AI-powered enterprise platform combining project management, knowledge graph, CI/CD workflows, analytics — all tools in one place.",  
+  //   image: OnetabImg,
+  //   tags: ["Web App", "AI-SaaS"],
+  //   metrics: ["—"],
+  //   year: 2024,
+  //   featured: true,
+  // },
+  // {
+  //   id: 6,
+  //   slug: "https://www.onnbikes.com/",
+  //   title: "ONN Bikes",
+  //   category: "Mobility / E-commerce",
+  //   description:
+  //     "A modern mobility-as-a-service (MaaS) platform offering bike & electric-bike rentals (hourly/flexible) — solves urban commute and reduces ownership overhead.",  
+  //   image: Onnbike,
+  //   tags: ["Web App"],
+  //   metrics: ["—"],
+  //   year: 2024,
+  //   featured: true,
+  // },
 ]
 
 
