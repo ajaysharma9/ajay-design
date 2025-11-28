@@ -177,7 +177,7 @@ export function Skills() {
         </div>
 
         {/* Achievements */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -210,7 +210,7 @@ export function Skills() {
               </motion.div>
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Certifications */}
         {/* <motion.div
