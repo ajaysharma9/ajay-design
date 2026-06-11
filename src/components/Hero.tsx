@@ -41,10 +41,11 @@ export function Hero() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-5xl md:text-6xl leading-tight font-bold text-[#1e213a]"
             >
-              Ajay Sharma, a seasoned 
-              UI/UX Designer with
+              Ajay Sharma, a UI/UX Designer with
               <br />
-              <span className="bg-gradient-to-r from-primary via-blue-600 to-purple-600 bg-clip-text text-transparent">
+              <span className="text-black -bg-gradient-to-r 
+              from-primary via-blue-600 to-purple-600
+               bg-clip-text text-transparent-">
                10+ years of experience  
               </span>
             </motion.h1>
@@ -59,7 +60,7 @@ export function Hero() {
             </motion.p>
           </div>
           
-          <motion.div 
+          {/* <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
@@ -76,7 +77,7 @@ export function Hero() {
             <Button variant="outline" size="lg" className="text-base px-8 py-6" asChild>
               <Link to="/contact">Let's Talk</Link>
             </Button>
-          </motion.div>
+          </motion.div> */}
           
           {/* <motion.div 
             initial={{ opacity: 0, y: 20 }}
